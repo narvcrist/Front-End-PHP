@@ -40,7 +40,7 @@
 session_start();//esta linea tiene que ir antes de cualquier cosa, incluso de espacios
 
 if(isset($_POST['submit'])){
-    if(!empty($_POST['ruc'])){
+    
         $ruc=$_POST['ruc'];
     
         $url = 'https://servicio-api.herokuapp.com/personas/'.$ruc;
@@ -119,6 +119,6 @@ if(isset($_POST['submit'])){
                 </script>';
                 exit;
             }
-    }
+    
 }
 
