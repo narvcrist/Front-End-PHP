@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
                     .'<td>' . $rucs. '</td>'
                     .'<td>' . $razon. '</td>'
                     .'<td>' . $econtribuyente. '</td>'
-                    .'<td>' . '<a href="pdf/pdf.php"><img src="https://www.fundacionmariaauxiliadora.org/wp-content/uploads/2017/10/pdf-icon.png" width="30" height="35" /></a>'. '</td>'
+                    .'<td>' . '<a href="pdf/pdf.php" target="_blank"><img src="https://www.fundacionmariaauxiliadora.org/wp-content/uploads/2017/10/pdf-icon.png" width="30" height="35" /></a>'. '</td>'
                     .'</tr>';
         
             echo '</table>';
