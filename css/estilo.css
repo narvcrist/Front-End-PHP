@@ -1,0 +1,31 @@
+@media (min-width:1px) and (max-width:480px){
+}
+@media (min-width:481px) and (max-width:1100px){
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+	justify-content: center;
+}
+.search{
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+ 
+}
+
+.col-lg-6{
+	margin: auto;
+	max-width: 420px;
+}
+
+.btn{
+	color: #ffffff;
+}
+.btn {
+	background: green;
+}
