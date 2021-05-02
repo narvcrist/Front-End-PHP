@@ -73,7 +73,7 @@ if(isset($_POST['submit'])){
             $actividad=$datos["ACTIVIDAD_ECONOMICA"];
             //echo("$json");
             echo'<br>';
-            echo'<div class="c" style="position: absolute; margin-top: 10%; left: 6.3% width: 90%">';
+            echo'<div class="c" style="position: absolute; margin-top: 10%; left: 7.5%; width: 85%"; >';
             echo '<table class="table">'
                 .'<tr style="text-align:center">'
                 .'<td style="background:#EEE"><b>NÚMERO DE RUC</b></td>'
